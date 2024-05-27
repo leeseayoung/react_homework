@@ -24,9 +24,7 @@ const App = () => {
       <Fragment />
       {count}
       <br />
-      <button className="btn1" onClick={addCount}>
-        +
-      </button>
+      <button className="btn1" onClick={addCount}></button>
       <button className="btn3" onClick={resetCount}>
         reset
       </button>
